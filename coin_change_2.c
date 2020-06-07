@@ -1,3 +1,4 @@
+// number of ways of making a coin
 #include<stdio.h>
 int change(int amount, int* coins, int n){
 
