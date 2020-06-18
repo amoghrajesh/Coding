@@ -20,6 +20,7 @@ def validIPAddress(s):
         return "IPv4"
     else:
         parts = s.split(':')
+        print(parts)
         if len(parts)!=8:
             return "Neither"
         
