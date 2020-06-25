@@ -3,7 +3,7 @@
 def editDist(word1, word2, m ,n):
     if m==0:
         return n
-    if n==0:
+    if n == 0:
         return m
 
     if word1[m-1] == word2[n-1]:
