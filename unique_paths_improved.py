@@ -19,4 +19,4 @@ class Solution(object):
         f1 = fact(right)
         f2 = fact(down)
         
-        return f//(f1*f2)
+        return f//(f1*f2)ar
