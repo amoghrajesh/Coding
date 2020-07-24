@@ -12,4 +12,4 @@ class Solution:
             x = f ^ i
             if x in s:
                 ans.append(i)
-        return ans
+        return ansall
