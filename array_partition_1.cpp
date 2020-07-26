@@ -10,3 +10,7 @@ public:
         return ans;
     }
 };
+
+cout << "Address of A  " << &a << endl;
+cout << "Address of B  " << &b << endl;
+cout << "Address of G  " << &g << endl;
