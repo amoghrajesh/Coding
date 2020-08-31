@@ -20,7 +20,7 @@ class Solution(object):
         for i in range(n):
             hashmap[tuple(a[i])] = i
         
-        a = sort(hashmap.keys()[0], key = lambda x: (x[0], x[1]))
+        a.sort(hashmap.keys()[0], key = lambda x: (x[0], x[1]))
         ans = [-1] * n
         for i in range(n - 1):
             x = self.bs(a[i][1], a, i + 1, n)
