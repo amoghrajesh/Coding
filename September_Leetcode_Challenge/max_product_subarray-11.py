@@ -12,3 +12,4 @@ class Solution:
             prev_max_product = cur_max_product
             prev_min_product = cur_min_product
         return ans
+
