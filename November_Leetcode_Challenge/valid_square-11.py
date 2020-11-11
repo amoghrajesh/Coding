@@ -16,4 +16,5 @@ class Solution:
                     hashmap[d] += 1
         
         x = sorted(list(hashmap.values()))
-        return x[0] == 2 and x[1] == 4
+
+        return (2 in x and 4 in x)
