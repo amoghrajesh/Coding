@@ -1,0 +1,27 @@
+Questions Curefit asked this year in Interviews:
+
+Buy and sell stock for max profit for atmost 1 -- done ,2 and K transactions
+
+N ary tree boundary traversal
+
+Min number of platforms for train station  -- done 
+
+Largest window with with equal number of 0s and 1s  -- done
+
+ Three triplets in array a[i], a[j], a[k] i<j<k such that product is maximum. -- done
+
+https://stackoverflow.com/questions/51506395/how-can-one-find-the-last-right-most-node-on-the-last-level-of-tree-which-is-a
+
+Printing different views of trees : vertical -- done , bottom -- done, left -- done , right -- done, top -- done.
+
+Find the rightmost node in complete binary tree
+
+Maximum Gap: Given an unsorted array, find the maximum difference between the successive elements in its sorted form. Without sorting!
+
+Next greater element -- done
+
+Min cost path -- done
+
+Coin change -- done
+
+LRU Cache with constant time: insertion, deletion and fetch. -- done

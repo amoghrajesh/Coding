@@ -1,0 +1,38 @@
+Coding:
+https://www.geeksforgeeks.org/minimum-maximum-values-expression/
+longest subsequnece with unique characters
+Stack using two queues
+reverse linked list recursively 
+find nth last element of a linked list
+minimum spannign tree
+
+Technical: 
+CN:
+TCP IP Model  or OSI model
+Aptitude
+Different protocols that run there at each level in TCP IP Model
+Router and switch
+paging
+VLAN
+DHCP, DNS
+
+OS: 
+memory layout of programs
+process and threads, 
+virtualisatiion, 
+containerization, 
+kernel with examples, 
+thrashing and paging, 
+race condition, mutual exclusion and deadlock, 
+write code for Peterson’s Solution to the critical section problem -- optional
+Readers Writers problem -- optional
+Explain what happens when interrupt happens and when context switch happens?
+
+SQL and DBMS:
+few queries to enable thinking
+database security and ACID properties, optimise searching in database, 
+distributed clusters -- optional
+
+Well to do with Resume  --- IMP!
+
+Bit manipulation questions -- IMP! -> Unset a bit in a number

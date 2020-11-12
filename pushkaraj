@@ -1,0 +1,110 @@
+N = 4 and S = {1,2,3}
+
+1 1 1 1
+1 2 1
+2 2
+1 3
+
+3 -> yes or no
+yes -> N = 1, S = {1, 2, 3}      3,  y̶e̶s̶ -̶>̶ N̶ =̶ -̶2̶   no -> N = 1, S = {1, 2}    y̶e̶s̶ -̶>̶ N̶ =̶ -̶1̶   no -> N = 1, S = {1} yes -> N = 0  ,  no -> N = 1, S = {}                                                     
+
+no -> N = 4, S = {1, 2}
+
+
+def coin(N, S, m):
+    if m == 0 or N < 0:
+        return 0
+    # satisfied
+    if N == 0:
+        return 1
+                                                            N, S, m
+    include_last_coin = coin(N - S[m-1], S, m)          coin(1, S, 3)           coin(-2, S, 3)
+    exclude_last_coin = coin(N, S, m - 1)               coin(4, S, 2)           coin(1, S, 2)
+
+    return include_last_coin + exclude_last_coin       coin(1, S, 3) + coin(4, S, 2) 
+
+    #return coin(N - S[m-1], S, m) + coin(N, S, m - 1) 
+
+coin(4, {1,2,3}, 3)
+
+
+
+Fibonacci
+def fib(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    before_one = fib(n-1)
+    before_two = fib(n-2)
+
+    return before_one + before_two
+
+
+    a = 0
+    b = 1
+    c = a + b   0 + 1
+
+
+    1 
+2        3
+
+
+        1 
+    2       4
+3      7   6      5
+
+def path(Node* root, arr):
+    if(!root){
+        return;
+    }
+    arr.append(root->val)           [1]  [1, 2]  ---> [1,2,7] [1,2,3]
+    if(!root->left and !root-<right){
+        print(arr)  [1, 2, 3] [1,2,7]
+    }
+
+    .. 3
+    path(root->left, arr)       path(2, [1])  path(3, [1,2]) path(NULL, [1,2,3])
+    path(root->right, arr)      path(NULL, [1,2,3])  path(7, [1,2])
+
+    arr.pop() [1,2]
+    return
+
+
+
+1 2 3
+1 2 7
+1 4 5
+...
+
+abc -> a b c ab ac abc bc ...
+
+def subseq(s, n):
+
+
+
+abc  -> 0 .. n abc ab 
+
+
+Classic Problems:
+Coin change  -> number of ways
+Coin change  -> minimum number of coins to form a sum  (recursive)
+Tree -> all root to leaf paths print
+
+
+(1910, 1940)
+(1910, 1920)
+(1900, 1980)
+....
+
+
+1900 --------------------------------------- 1980
+    1910--1920
+    1910--------1940
+
+    
+
+
+
+
