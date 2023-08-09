@@ -16,7 +16,7 @@ default_args = {
 }
 
 example_dag = DAG(
-    'bashoperator-parameter-job',
+    'bashoperator-parameter-job-inside',
     default_args=default_args,
     start_date=parser.isoparse("2020-11-11T20:20:04.268Z").replace(tzinfo=timezone.utc),
     schedule_interval='@once',
