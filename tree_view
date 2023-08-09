@@ -1,0 +1,833 @@
+. (HASH: e9bd2911b5c46e25ddd460edd39c7bc86bb0fde8)
+├── .idea (HASH: 66ccbc33cff694d1853e51c356247d0cb54a1887)
+│   ├── .gitignore
+│   ├── days_of_code.iml
+│   ├── inspectionProfiles
+│   │   └── profiles_settings.xml
+│   ├── misc.xml
+│   ├── modules.xml
+│   └── vcs.xml
+├── 100_doors.py
+├── 3sum.py
+├── 3sum_july.py
+├── APSSE_qn_1.c
+├── April_Leetcoding_Challenge_2021 (HASH: 50d9c737a175f552d4a8884e3ac58722e993ccec)
+│   ├── beautiful_arrangement-ii-12.cpp
+│   ├── brick_wall-22.java
+│   ├── combination_sum_iv-19.java
+│   ├── count_binary_substrings-23.py
+│   ├── critical_connections_in_a_network-24.cpp
+│   ├── deepest_leaves_sum-11.cpp
+│   ├── design_circular_queue-4.java
+│   ├── determine_if_string_halves_are_alike-7.java
+│   ├── fibonacci_number-15.java
+│   ├── find_first_and_last_occurence_of_a_number_in_a_sorted_array-29.java
+│   ├── flatten_nested_list_iterator-13.cpp
+│   ├── furthest_building_you_can_reach-26.java
+│   ├── global_and_local_inversions-5.java
+│   ├── letter_combinations_of_phone_number-8.py
+│   ├── longest_increasing_path_in_a_matrix-10.cpp
+│   ├── longest_valid_paranthesis-3.java
+│   ├── minimum_operations_to_make_array_equal-6.java
+│   ├── n_ary_tree_preorder_traversal-20.cpp
+│   ├── number_of_submatrices_that_sum_to_a_target-17.java
+│   ├── ones_and_zeros-2.java
+│   ├── palindrome_linked_list-1.cpp
+│   ├── partition_list-14.cpp
+│   ├── power_of_three-27.java
+│   ├── powerful_integers-30.java
+│   ├── remove_all_adjacent_duplicates_in_a_string-16.py
+│   ├── remove_nth_node_from_end_of_list-18.cpp
+│   ├── rotate_image-25.java
+│   ├── triangle-21.java
+│   ├── unique_paths_ii-28.java
+│   └── verifying_an_alient_dictionary-9.py
+├── December_Leetcode_Challenge
+│   ├── 4_sum_ii-17.py
+│   ├── balanced_binary_tree-22.cpp
+│   ├── binary_search_tree_iterator-9.cpp
+│   ├── can_place_flowers-5.cpp
+│   ├── cherry_pickup_2-19.java
+│   ├── decode_ways-26.cpp
+│   ├── decoded_string_at_index-20.cpp
+│   ├── diagonal_traverse-25.cpp
+│   ├── game_of_life-30.cpp
+│   ├── increasing_order_search_tree-3.cpp
+│   ├── increasing_triplet_subsequence-18.cpp
+│   ├── jump_game_iv-27.cpp
+│   ├── largest_rectangle_in_histogram-31.cpp
+│   ├── linked_list_random_node-2.cpp
+│   ├── maximum_depth_of_binary_tree-1.cpp
+│   ├── next_greater_element-iii-24.cpp
+│   ├── pair_of_songs_with_total_time_divisible_by_60-8.py
+│   ├── palindrome_partitioning-14.py
+│   ├── populating_next_pointer_in_each_node_ii-6.cpp
+│   ├── pseudo_palindromic_paths_in_binary_tree-29.cpp
+│   ├── reach_a_number-28.cpp
+│   ├── remove_duplicate_elements_from_sorted_array_ii-11.py
+│   ├── smallest_range_ii-21.py
+│   ├── smallest_subtree_with_all_deepest_nodes-12.py
+│   ├── spiral_matrix_ii-7.cpp
+│   ├── squares_of_a_sorted_array-15.py
+│   ├── swap_nodes_in_pairs-24.cpp
+│   ├── the_kth_factor_of_n-4.cpp
+│   ├── valid_mountain_array-10.cpp
+│   └── validate_binary_search_tree-16.cpp
+├── February_Leetcode_Challenge_2021
+│   ├── arithmetic_slices-18.java
+│   ├── binary_tree_right_side_view-6.cpp
+│   ├── broken_calculator-21.java
+│   ├── container_with_most_water-17.java
+│   ├── convert_bst_to_greater_tree-9.java
+│   ├── copy_list_with_random_pointer-10.cpp
+│   ├── divide_two_integers-27.java
+│   ├── is_graph_bipartite?-14.py
+│   ├── k_weakest_rows_in_matrix-15.java
+│   ├── letter_case_permutation-16.py
+│   ├── linked_list_cycle-3.java
+│   ├── longest_harmonious_subsequence-4.py
+│   ├── longest_word_in_dictionary_through_deleting-22.java
+│   ├── maximum_frequency_stack-28.java
+│   ├── minimum_remove_to_make_valid_paranthesis-19.java
+│   ├── number_of_1_bits-1.java
+│   ├── number_of_steps_to_reduce_a_number_to_zero-12.java
+│   ├── peeking_iterator-8.java
+│   ├── roman_to_integer-20.java
+│   ├── score_of_parantesis-24.java
+│   ├── search_a_2D_matrix_ii-23.java
+│   ├── shortest_distance_to_character-7.py
+│   ├── shortest_path_in_binary_matrix-13.java
+│   ├── shortest_unsorted_continous_array-25.java
+│   ├── simplify_path-5.py
+│   ├── trim_a_bst-2.java
+│   ├── valid_anagram-11.java
+│   └── validate_stack_sequence-26.java
+├── January_Leetcode_Challenge_2021
+│   ├── add_two_numbers-12.cpp
+│   ├── beautiful_arrangement-3.cpp
+│   ├── boats_to_save_people-13.java
+│   ├── check_array_formation_through_concatenation-1.py
+│   ├── check_if_all_ones_are_atleast_k_places_away_25.java
+│   ├── check_if_two_string_arrays_are_equivalent-8.java
+│   ├── concatenation_of_consecutive_binary_numbers-27.java
+│   ├── count_sorted_vowel_strings-17.java
+│   ├── create_sorted_array_by_following_instructions-10.py
+│   ├── determine_if_strings_are_close-22.py
+│   ├── find_corresponding_node_of_binary_tree_in_a_clone_of_the_tree-2.cpp
+│   ├── find_the_most_competitive_subsequence-21.java
+│   ├── get_maximum_in_generated_array-15.java
+│   ├── kth_largest_element_in_array-16.java
+│   ├── kth_missing_positive_number-6.cpp
+│   ├── longest_palindromic_substring-19.java
+│   ├── longest_substring_without_repeating_characters-7.cpp
+│   ├── max_number_of_k_sum_pairs.java
+│   ├── merge_k_sorted_lists-24.java
+│   ├── merge_sorted_array-11.java
+│   ├── merge_two_sorted_lists-4.cpp
+│   ├── min_deviation_in_array-30.java
+│   ├── minimum_operations_to_reduce_x_to_zero-14.java
+│   ├── next_permutation-31.cpp
+│   ├── path_with_minimum_effort-26.cpp
+│   ├── remove_duplicates_from_sorted_list-5.java
+│   ├── smallest_string_with_given_numeric_value-28.java
+│   ├── sort_matrix_diagonally-23.java
+│   ├── valid_paranthesis-20.java
+│   ├── vertical_order_traversal_of_binary_tree-29.cpp
+│   └── word_ladder-9.py
+├── July_Leetcode_Challenge_2021
+│   ├── count_vowels_permutation-4.java
+│   ├── find_k_closest_elements-2.java
+│   ├── gray_code-1.py
+│   ├── reduce_array_size_to_half-6.py
+│   └── reshape_the_matrix-5.java
+├── June_Leetcode_Challenge_2021
+│   ├── candy-27.java
+│   ├── construct_binary_tree_from_preorder_and_inorder_traversal-8.java
+│   ├── count_of_smaller_numbers_after_self-26.cpp
+│   ├── generate_paranthesis-16.py
+│   ├── interleaving_string-2.java
+│   ├── jump_game_vi-9.java
+│   ├── k_inverse_pair_arrays-19.cpp
+│   ├── longest_consecutive_sequence-6.py
+│   ├── lowest_common_ancestor_of_binary_tree-30.java
+│   ├── matchsticks_to_square-15.java
+│   ├── max_area_of_island-1.cpp
+│   ├── max_consecutive_ones_iii-29.java
+│   ├── maximum-area-of-a_piece_of_cake_after_horizontal_and_vertical_cuts-3.java
+│   ├── maximum_performance_of_team-5.py
+│   ├── maximum_units_on_a_truck-14.py-1
+│   ├── min_cost_climbing_stairs-7.java
+│   ├── minimum_number_of_refueling_stops-12.java
+│   ├── my_calendar_i-10.py
+│   ├── number_of_matching_subsequences-22.java
+│   ├── number_of_subarrays_with_bounded_maximum-17.java
+│   ├── open_lock-4.java
+│   ├── out_of_boundary_paths-24.java
+│   ├── palindrome_pairs-13.java
+│   ├── pascals_traingle-21.py
+│   ├── range_sum_query_mutable-18.java
+│   ├── redundant_connection-25.py
+│   ├── remove_all_adjacent_duplicates_from_a_string-28.java
+│   ├── reverse_linked_list_ii-23.cpp
+│   ├── stone_game_vii-11.py
+│   └── swim_in_rising_water-20.cpp
+├── March_Leetcode_Challenge_2021
+│   ├── 3sum_with_multiplicity-23.py
+│   ├── add_one_row_to_tree-9.cpp
+│   ├── advantage_shuffle-24.py
+│   ├── average_of_levels_in_binary_tree-5.cpp
+│   ├── best_time_to_buy_and_sell_stock_with_transaction_fee-16.java
+│   ├── binary_tree_with_factors-13.java
+│   ├── check_if_string_contains_all_binary_codes_of_length_k-12.py
+│   ├── coin_change-11.java
+│   ├── design_hashmap-7.java
+│   ├── design_underground_system-20.py
+│   ├── distribute_candies-1.java
+│   ├── encode_and_decode_tinyurl-15.java
+│   ├── flip_binary_tree_to_match_preorder_traversal-29.cpp
+│   ├── generate_random_point_in_circle-17.java
+│   ├── integer_to_roman-10.java
+│   ├── intersection_of_two_linked_lists-4.cpp
+│   ├── keys_and_rooms-19.cpp
+│   ├── missing_number-3.java
+│   ├── pacific_atlantic_water_flow-25.cpp
+│   ├── palindromic_substrings-27.java
+│   ├── reconstruct_original_digits_from_english-28.py
+│   ├── remove_palindromic_subsequences-8.java
+│   ├── reorder_power_of_2-21.py
+│   ├── russian_doll_envelopes-30.java
+│   ├── set_mismatch-2.java
+│   ├── short_encoding_of_words-6.cpp
+│   ├── stamping_the_seqeunce-31.py
+│   ├── swapping_nodes_in_linked_list-14.java
+│   ├── vowel_spellchecker-22.py
+│   ├── wiggle_subsequence-18.java
+│   └── word_subsets-26.py
+├── May_Leetcode_Challenge_2021
+│   ├── ambigous_coordinates-13.py
+│   ├── binary_tree_cameras-16.java
+│   ├── binary_tree_level_order_traversal-20.cpp
+│   ├── construct_target_array_with_multiple_sums-9.cpp
+│   ├── convert_sorted_list_to_bst-6.cpp
+│   ├── count_primes-10.java
+│   ├── course_schedule_iii-2.java
+│   ├── delete_operation_for_two_strings-7.py
+│   ├── evaluate_reverse_polish_notation-25.java
+│   ├── find_and_replace_pattern-21.java
+│   ├── find_duplicate_file_in_system-18.py
+│   ├── flatten_binary_tree_to_linked_list-14.cpp
+│   ├── jump_game_ii-5.cpp
+│   ├── longest_string_chain-17.py
+│   ├── maximum_erasure_value-28.java
+│   ├── maximum_gap-30.go
+│   ├── maximum_points_you_can_obtain_from_cards-11.java
+│   ├── maximum_product_of_word_lengths-27.py
+│   ├── minimum_operations_to_make_array_equal_ii-19.java
+│   ├── n_queens-22.py
+│   ├── n_queens_ii-29.java
+│   ├── non_decreasing_array-4.py
+│   ├── partitioning_string_into_minimum_deci_binary_numbers-26.java
+│   ├── prefix_and_suffix_search-1.cpp
+│   ├── range_sum_query_2d_immutable-12.java
+│   ├── running_sum_of_1D_array-3.java
+│   ├── search_suggestions-31.cpp
+│   ├── super_palindrome-8.py
+│   ├── to_lower_case-24.java
+│   └── valid_number-15.py
+├── Non Leetcode Solutions
+│   ├── BST_py.py
+│   ├── Cycle.c
+│   ├── ProjectEuler (HASH: 2881a043d7a38290402e8956e49988ed0f7be7d8)
+│   │   ├── euler#1.py
+│   │   ├── euler#10.py
+│   │   ├── euler#15.py
+│   │   ├── euler#2.py
+│   │   ├── euler#24.py
+│   │   ├── euler#3.py
+│   │   ├── euler#30.py
+│   │   ├── euler#4.py
+│   │   ├── euler#48.py
+│   │   ├── euler#6.py
+│   │   └── euler#7.py
+│   ├── a.exe
+│   ├── absolute_diff_diagonals.py
+│   ├── alco.py
+│   ├── alco2.py
+│   ├── all.py
+│   ├── ap.py
+│   ├── apgp.py
+│   ├── append_and_delete.py
+│   ├── attend.py
+│   ├── avg.py
+│   ├── balanced_para.py
+│   ├── balloon.py
+│   ├── bearsandcandies123.py
+│   ├── beautiful_triplets.py
+│   ├── beenum.py
+│   ├── bestbox.py
+│   ├── bigpow.py
+│   ├── bitwisexor.py
+│   ├── bottle.py
+│   ├── box.py
+│   ├── buggy.py
+│   ├── cake.py
+│   ├── candies.py
+│   ├── casino.py
+│   ├── ceilandreciept.py
+│   ├── chal1.py
+│   ├── chal3.py
+│   ├── cheapest_flight_within_k_stops.py
+│   ├── cheapest_flights_within_k_stops_simpler.py
+│   ├── chef_and_strings.py
+│   ├── chefandstudents.py
+│   ├── circle_land.py
+│   ├── circular_array_rotation.py
+│   ├── cleaningup.py
+│   ├── closest_numbers.py
+│   ├── connectedComp.py
+│   ├── cut_the_sticks.py
+│   ├── data_preprocessing.py
+│   ├── data_preprocessing_final.py
+│   ├── destination_city.py
+│   ├── detective.c
+│   ├── diag.py
+│   ├── difference_between_lists.py
+│   ├── dishes.py
+│   ├── doubly_linked_list_py.py
+│   ├── draw.py
+│   ├── dup_list.py
+│   ├── easy.py
+│   ├── eid.py
+│   ├── elevsstairs.py
+│   ├── equalize_array.py
+│   ├── farmer_plot.py
+│   ├── fib_matrix.py
+│   ├── fibandsum.py
+│   ├── fillwater.py
+│   ├── find_common_characters.py
+│   ├── first.c
+│   ├── flatland_stations.py
+│   ├── flatland_stations_dp.py
+│   ├── fleymann.py
+│   ├── flip.py
+│   ├── flush.py
+│   ├── football.py
+│   ├── friends.py
+│   ├── fruits.py
+│   ├── graphs_in_python.py
+│   ├── guddu.py
+│   ├── gudu2.py
+│   ├── gudu3.py
+│   ├── happynum.py
+│   ├── inv.py
+│   ├── isTree.py
+│   ├── issame.py
+│   ├── junechal3.py
+│   ├── junelong1.py
+│   ├── keyboard_row.py
+│   ├── king.py
+│   ├── kitchen_timetable.py
+│   ├── ks2.py
+│   ├── latin.py
+│   ├── lcs.py
+│   ├── lcs2.py
+│   ├── linked_list_py.py
+│   ├── lisas_workbook.py
+│   ├── long2.py
+│   ├── loop.py
+│   ├── loveletter.py
+│   ├── lovely.py
+│   ├── machula.py
+│   ├── magic.py
+│   ├── max-min.py
+│   ├── max_sum_product.py
+│   ├── maxdist.py
+│   ├── maxmod.py
+│   ├── mcqs.py
+│   ├── merge_k_sorted_lists.py
+│   ├── middle.py
+│   ├── mini_desc_bigletters.txt
+│   ├── mini_desc_preprocess_final.txt
+│   ├── mini_desc_preprocess_upper.txt
+│   ├── moredistant.py
+│   ├── movieweekends.py
+│   ├── movieweekned.py
+│   ├── n_repeated_element_in_size_of_2n.py
+│   ├── new year.py
+│   ├── nextPal.py
+│   ├── nikifor.py
+│   ├── nocommon.py
+│   ├── notes.py
+│   ├── notes1.py
+│   ├── number seq.py
+│   ├── numoftrans.py
+│   ├── old.py
+│   ├── owl.py
+│   ├── palin.py
+│   ├── palyi.py
+│   ├── partition.c
+│   ├── partition.exe
+│   ├── plural.py
+│   ├── power.py
+│   ├── prime.c
+│   ├── proxyjun1.py
+│   ├── punctuate.py
+│   ├── puppy.py
+│   ├── queue_reconstruction_by_height.py
+│   ├── recaman.py
+│   ├── regex.py
+│   ├── sherlock_array.py
+│   ├── ship.py
+│   ├── sieve.py
+│   ├── smallest_notes.py
+│   ├── smith_numers.py
+│   ├── sqrt.py
+│   ├── string_anagram.py
+│   ├── strong_password.py
+│   ├── struct_py.py
+│   ├── substr.py
+│   ├── substring.py
+│   ├── sum.py
+│   ├── symetric.py
+│   ├── tablet.py
+│   ├── taumbday.py
+│   ├── test.py
+│   ├── testing.py
+│   ├── thieve.py
+│   ├── total.py
+│   ├── toursit_translations.py
+│   ├── turbo.py
+│   ├── two_city_scheduling.py
+│   ├── unequal.py
+│   ├── unique_email_addresses.py
+│   ├── versioncontrolsystem.py
+│   ├── viterbi.py
+│   ├── water_harvesting.py
+│   ├── whatsinname.py
+│   ├── winter.py
+│   └── wp2465898.png
+├── November_Leetcode_Challenge
+│   ├── add_two_numbers_2-7.cpp
+│   ├── basic_calculator_2-24.java
+│   ├── binary_tree_tilt-8.cpp
+│   ├── consecutive_characters-3.cpp
+│   ├── consecutive_characters-alternative-3.cpp
+│   ├── convert_binary_number_in_linked_list_to_decimal-1.cpp
+│   ├── decode_string-19.py
+│   ├── dodo.py
+│   ├── find_smallest_divisor_given_threshold-6.cpp
+│   ├── flipping_an_image-10.cpp
+│   ├── house_robber_3-23.java
+│   ├── insert_sort_list-2.cpp
+│   ├── jump_game_iii-29.cpp
+│   ├── longest_mountain_in_array-16.cpp
+│   ├── longest_substring_with_atleast_k_characters-27.py
+│   ├── maximum_difference_between_node_and_ancestor-9.py
+│   ├── merge_intervals-18.cpp
+│   ├── minimum_cost_to_move_chips_to_same_position-5.cpp
+│   ├── minimum_height_trees-4.py
+│   ├── mirror_reflection-17.cpp
+│   ├── numbers_at_most_n_given_digit_set-21.py
+│   ├── partition_equal_subset_sum-27.cpp
+│   ├── permutations_2-12.py
+│   ├── poor_pigs-14.cpp
+│   ├── populating_next_right_pointers_for_each_node-13.cpp
+│   ├── range_sum_of_bst-15.cpp
+│   ├── search_in_sorted_array_2-20.cpp
+│   ├── sliding_window_maximum-28.py
+│   ├── smallest_integer_divisible_by_k-26.py
+│   ├── the_skyline_problem-30.py
+│   ├── unique_morse_code_words-22.py
+│   ├── valid_square-11.py
+│   └── weight-pairs.cpp
+├── October_Leetcode_Challenge
+│   ├── 132_pattern-23.cpp
+│   ├── asteroid_collision-21.cpp
+│   ├── bag_of_tokens-24.cpp
+│   ├── best_time_to_buy_and_sell_4-19.java
+│   ├── binary_search-8.cpp
+│   ├── buddy_strings-12.py
+│   ├── champagne_tower-26.cpp
+│   ├── clone_graph-20.py
+│   ├── combination_sum-2.cpp
+│   ├── complement_of_base_10_integer-5.py
+│   ├── dna_sequence-17.py
+│   ├── house_robber_2-15.py
+│   ├── insert_in_a_bst.cpp
+│   ├── k_diff_pairs_in_array-3.py
+│   ├── linked_list_cycle_2-27.cpp
+│   ├── maximise_distance_to_closest_person-29.cpp
+│   ├── minimum-number-of-arrows-to-burst-balloons-10.cpp
+│   ├── minimum_depth_of_binary_tree-22.cpp
+│   ├── minimum_domino_rotations_for_equal_row-19.py
+│   ├── number_of_longest_increasing_subsequence-30.cpp
+│   ├── number_of_recent_calls-1.cpp
+│   ├── recover_bst-31.cpp
+│   ├── remove_covered_intervals-4.py
+│   ├── remove_duplicate_letters-11.py
+│   ├── rotate_array-15.py
+│   ├── rotate_list-7.cpp
+│   ├── search_in_2D_matrix-16.cpp
+│   ├── serialize_and_deserialize_bst-9.cpp
+│   ├── sort_list-13.cpp
+│   ├── stone_game_4-25.cpp
+│   └── summary_ranges-28.py
+├── September_Leetcode_Challenge
+│   ├── a.exe
+│   ├── all_elements_in_two_binary_trees-5.cpp
+│   ├── best_time_to_buy_and_sell_stock-18.cpp
+│   ├── bulls_and_cows-10.py
+│   ├── car_pooling-21.py
+│   ├── combination_sum_iii-12.cpp
+│   ├── compare_version_numbers-9.py
+│   ├── contains_duplicate_iii-2.py
+│   ├── evaluate_division-27.py
+│   ├── find_the_difference-24.py
+│   ├── gas_station-23.cpp
+│   ├── house_robber-14.cpp
+│   ├── image_overlap-6.py
+│   ├── insert_interval-13.py
+│   ├── largest-time-for-given-digits-1.py
+│   ├── largest_number-25.py
+│   ├── length_of_last_word-15.py
+│   ├── lt_1.c
+│   ├── lt_2.c
+│   ├── lt_2.exe
+│   ├── max_product_subarray-11.py
+│   ├── maximum_element_ii-22.cpp
+│   ├── maximum_xor_in_array-16.py
+│   ├── partition_labels-4.py
+│   ├── repeated_substring_pattern-3.cpp
+│   ├── robot_bounded_in_circle-17.cpp
+│   ├── subarray_product_less_than_k-28.cpp
+│   ├── subhash.py
+│   ├── sum_of_root_to_leaf_binary_numbers-8.cpp
+│   ├── teemo_attacking-26.py
+│   ├── unique_paths_iii-20.cpp
+│   ├── word_break-29.py
+│   └── word_pattern-7.py
+├── a.js
+├── add_binary.py
+├── add_digits.cpp
+├── add_digits.py
+├── add_numbers.cpp
+├── add_search_ds.py
+├── all_path_from_source_to_destination.py
+├── angle_between_hands_of_clock.cpp
+├── apache_log_file.py
+├── apsse_qn_1.py
+├── arithmetic_subarrays.java
+├── arranging_coins.py
+├── array_partition_1.cpp
+├── assign_cookies.java
+├── average_salary_excluding_min_and_max_salary.java
+├── backspace_string.py
+├── best-time-to-buy-and-sell-stock-with-cooldown.cpp
+├── best_time_to_buy_and_sellstock_3.py
+├── binary_numer_in_linkedlist_to_integer.c
+├── binary_search.c
+├── binary_search_tree_to_greater_sum_tree.cpp
+├── binary_tree_level_order_traversal_ii.cc
+├── binary_tree_pruning.java
+├── bottom_left_element_tree.cpp
+├── bs.exe
+├── bst_zigzag_level_traversal.cc
+├── calculate_money_in_leetcode_bank.java
+├── can_make_ap_from_array.java
+├── can_place_flowers.py
+├── cell_with_odd_values_in_a_matrix.java
+├── check_if_two_string_arrays_are_equivalent.java
+├── cisco_prep
+├── citr1.py
+├── climbin_stairs_2.c
+├── climbing_stairs.cpp
+├── climbing_stairs.py
+├── climbing_stairs_3.py
+├── clock_angle.py
+├── cloudera_prep
+├── clum.py
+├── clumsy_factorial.py
+├── codeblitz.py
+├── coin.exe
+├── coin_change_2.c
+├── coin_change_2.py
+├── complex_number_multiplication.py
+├── compress_the_string.py
+├── construct_target_with_multiple_sums-9.cpp
+├── construct_tree_from_inorder_and_postorder.cpp
+├── container_with_most_water.cpp
+├── count_good_nodes_in_binary_tree.java
+├── count_good_triplets.java
+├── count_negative_numbers_in_a_sorted_matrix.java
+├── count_nodes_in_complete_tree.cpp
+├── count_number_of_consistent_strings.java
+├── count_number_of_teams.py
+├── count_of_matches_in_tournament.cpp
+├── counting_bits.py
+├── counting_courses.py
+├── course_schedule_2.py
+├── create_target_array_in_given_order.py
+├── curefit_questions
+├── debug.log
+├── decompress_run_encoded_length_string.java
+├── defuse_the_bomb.java
+├── delete_leaves_with_given_value.cpp
+├── delete_node_bst.cpp
+├── delete_nodes_ll.cpp
+├── design_hashset.py
+├── design_parking_system.java
+├── detect_capital.py
+├── determine_if_string_halves_are_alike.java
+├── difference_between_product_and_diff.py
+├── distance_between_bus_stops.java
+├── distribute_candies.java
+├── distribute_candies_to_people.py
+├── duplicate_number.py
+├── edge_quiz.py
+├── edit_distance.py
+├── element_more_than_25%.py
+├── even_odd_tree.cpp
+├── excel_sheet_column_number.cpp
+├── extra_candies.py
+├── fair_candy_swap.java
+├── final_prices_after_special_discount.py
+├── find_all_anagrams_in_a_string.py
+├── find_all_duplicates_in_array.cpp
+├── find_corresponding_node_in_cloned_tree.cpp
+├── find_distance_between_two_arrays.py
+├── find_largest_value_in_each_tree_row.cpp
+├── find_mode_in_binary_tree.cpp
+├── find_n_unique_integers_that_add_to_zero.py
+├── find_number_with_even_digits.cc
+├── find_right_interval.py
+├── find_the_duplicate_number.cpp
+├── find_the_highest_altitude.java
+├── firstBadVersion.py
+├── first_missing_positive_number-30.cpp
+├── first_unique_character.py
+├── fizzbuzz.py
+├── flatten_multilevel_doubly_linked_list.cpp
+├── gas_station.cpp
+├── generate_string_with_characters_that_have_odd_frequencies.py
+├── goal_parser_interpretation.cpp
+├── goat_latin.py
+├── goat_latin_aug.py
+├── gray_code.py
+├── group_the_people_given_group_size_they_belong_to.py
+├── h_index_ii.py
+├── hamming_distance.py
+├── hamming_distance_xor.cc
+├── hamming_distance_xor.py
+├── heap_growth.cpp
+├── house_robber.py
+├── how-many-numbers-are-smaller-than-the-current-number.py
+├── id_string.py
+├── increasing_order_search_tree.cpp
+├── increasing_triplet_subsequence.cpp
+├── infinite_memory.cpp
+├── insert_search_pos.py
+├── int_1.py
+├── int_2.py
+├── int_3.py
+├── intersection_of_two_ll.cpp
+├── isPerfectSquare.py
+├── isSub_iterative.py
+├── isSubsequence.py
+├── island_perimeter.cpp
+├── iterative_inorder_traversal.cc
+├── jump_game.cpp
+├── jump_game_3.cpp
+├── k_closest_points.py
+├── k_weakest_rows.py
+├── largest_component_size_by_common_factor.py
+├── largest_divisible_subset.py
+├── largest_max_square.py
+├── largest_triangle_area.py
+├── last_stone_weight.java
+├── leaf_similar_trees.cpp
+├── linked_list_cycle.cpp
+├── linked_list_cycle_hashing.cpp
+├── longest_increasing_subsequence.cpp
+├── longest_palindromic_sub_n3.cpp
+├── longest_palindromic_substring.cpp
+├── longest_palindromic_substring.py
+├── longest_repeating_substring.py
+├── longest_repeating_substring_rabin_karp.py
+├── lucky_integer.py
+├── lucky_numbers_in_a_matrix.java
+├── magical_park.py
+├── matr.py
+├── matrix_diagonal_sum.java
+├── max_increase_to_keep_city_skyline.java
+├── max_subarray_sum.py
+├── maximum_69_number.py
+├── maximum_binary_tree.java
+├── maximum_depth_of_nary_tree.cpp
+├── maximum_level_sum_of_a_bst.cpp
+├── maximum_product.py
+├── maximum_score_after_splitting_string.py
+├── maximum_subarray_of_zeros_and_ones.py
+├── maximum_sum_circular_subarray.py
+├── maximum_units_on_a_truck.java
+├── maximum_width_in_a_binary_tree.cpp
+├── may3_ransom_note.py
+├── may4_number_complement.py
+├── may_day_28_counting_bits.py
+├── merge_in_between_linked_lists.c
+├── merge_interval_lists.py
+├── merge_sorted_array.java
+├── merge_two_binary_trees.java
+├── min_cost_climbing_stairs.java
+├── min_diff_pairs.py
+├── minimum_depth_of_binary_tree.cpp
+├── minimum_number_in_sorted_array_2.cpp
+├── minimum_operations_to_make_array_elements_equal.java
+├── minimum_path_sum.cpp
+├── minimum_ticket_cost.py
+├── minimum_time_to_visit_all_points.py
+├── miniumum_number_of_vertices_to_reach_all_nodes.java
+├── mock_test3_1.py
+├── mock_test3_2.py
+├── monotonic_array.py
+├── mountain_element.py
+├── ms.py
+├── ms_2.py
+├── n_ary_tree_level_order.cpp
+├── n_ary_tree_postorder_traversal.cpp
+├── n_ary_tree_preorder_traversal.cpp
+├── nest_greater_element_1.py
+├── next_greater_circular_array.py
+├── next_greater_element_1_O(n).py
+├── next_greater_element_1_stack.py
+├── nim.py
+├── nim_game.java
+├── nokia_dis_2.py
+├── nokia_disappearance.py
+├── number-of-students-doing-homework-at-a-given-time.py
+├── number_of_good_pairs.cpp
+├── number_of_rectangles_that_can_form_the_largest_square.java
+├── numbers_with_same_consecutive_difference.py
+├── online_stock_span.py
+├── overcommit_memory.py
+├── palindrome_num.py
+├── pancake_sort.py
+├── partitioning_into_minimum_number_of_deci_binary_numbers.java
+├── pascal_triangle_2.py
+├── path_sum_2.cpp
+├── path_sum_3.cpp
+├── path_sum_binary_tree.cc
+├── pattern.py
+├── perfect_squares.py
+├── perfect_squares_june.py
+├── permutation_of_one_string_in_other.py
+├── permutation_sequence.py
+├── person.py
+├── plus_one.cpp
+├── possible_bipartition.py
+├── pow(x,n).py
+├── power_of_four.cpp
+├── power_of_two.py
+├── preorder_traversal.cpp
+├── prime_numbers_upto.py
+├── prison_cell_after_n_days.cc
+├── prison_cells_after_n_days.py
+├── pushkaraj
+├── queue_using_two_stacks.py
+├── rand10_using_rand7.cpp
+├── random_pick_with_weight.py
+├── random_point_in_non_overlapping_rects.py
+├── rank_transform_of_an_array.py
+├── read_file_and_occurences.py
+├── reconstruct_iteinary.py
+├── register_allocation.py
+├── remove_k_digits.py
+├── remove_nth_node_from_end_of_list.java
+├── reorder_in_log_files.py
+├── reorder_list.cpp
+├── reorder_list_stack.cpp
+├── reverse_between_parantheses.py
+├── reverse_bits.py
+├── reverse_bw_paranthesis.py
+├── reverse_ll.cpp
+├── reverse_only_letters.py
+├── reverse_string_no_extra_space.py
+├── reverse_whole_string.cpp
+├── reverse_words_in_a_string.py
+├── reverse_words_in_string_2.py
+├── richest_customer_wealth.java
+├── robot_return_to_origin.cpp
+├── root_to_leaf_path.cpp
+├── rotate_matrix_90.py
+├── rotate_string.py
+├── rotated_digits.py
+├── rotting_oranges.cpp
+├── running_sum.py
+├── same_tree.cpp
+├── sample.txt
+├── search_binary_search_tree.c
+├── search_insert_position.py
+├── sequential_digits-19.cpp
+├── shortest_distance_to_character.py
+├── shortest_distance_to_character_2.py
+├── shuffle_string.py
+├── single_element_in_sorted_array.py
+├── single_number_3.py
+├── single_number_ii.py
+├── smallest_letter_than_other.py
+├── smallest_range.py
+├── sort_array_by_parity.cpp
+├── sort_array_by_parity.py
+├── sort_characters_based_on_frequency.py
+├── sort_colors.py
+├── sort_colors_three_ptrs.py
+├── spiral_matrix.py
+├── split_string_in_balanced_strings.py
+├── square_submatrices_of_ones.py
+├── squares_of_sorted_array.py
+├── stairs.exe
+├── steps_to_reduce_to_one.py
+├── stream_of_charcaters.cpp
+├── subarray_sum_equals_k.py
+├── subarrays_bounded.py
+├── subarrays_sum_s.py
+├── subdomain_visit_count.py
+├── subrectangle_queries.java
+├── subsets.py
+├── substring_within_budget.py
+├── sum_of_all_odd_length_subarrays.java
+├── sum_of_left_leaves.cpp
+├── sum_of_nodes_with_even_values_for_grandparents.cpp
+├── sum_of_root_to_leaf.cpp
+├── sum_of_root_to_leaf_binary_numbers.cc
+├── sum_root_to_leaf_working.c
+├── surrounded_regions.py
+├── task_scheduler.cpp
+├── third_maximum_number.cpp
+├── thousand_seperator.py
+├── three_elements_one_once.py
+├── top_k_frequent_elements.py
+├── transpose_matrix.py
+├── trapping_rain_water.cpp
+├── trapping_rainwater_2.cpp
+├── tree_view
+├── two_sum_ii_input_array_is_sorted.java
+├── ugly_number_ii.cc
+├── uncommon_words_from_two_sentences.java
+├── uncrossed_lines.py
+├── unique_array.py
+├── unique_bst.py
+├── unique_paths.py
+├── unique_paths_improved.py
+├── unique_usernames.py
+├── univalued_binary_tree.c
+├── valid_plaindrome_aug.py
+├── validate_ip_addresses.py
+├── vertical_order_traversal.cpp
+├── water_bottles.java
+├── wiggle_subsequence.py
+├── wl.py
+├── word_break_2.java
+├── word_search.cc
+└── xor_operation_in_an_array.java
+
+32 directories, 841 files
