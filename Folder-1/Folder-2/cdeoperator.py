@@ -39,7 +39,7 @@ prep_step2 = CDEJobRunOperator(
 )
 
 step3 = CDEJobRunOperator(
-    task_id='data_prep',
+    task_id='step3',
     dag=example_dag,
     job_name='spark-job-with-jar-from-git'
 )
