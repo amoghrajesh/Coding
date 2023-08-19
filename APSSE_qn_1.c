@@ -9,11 +9,6 @@ int findAns(int n){
 	for(int i=4;i<n+1;i++){
 		arr[i]=2*arr[n-1]+(long long int)pow(2,n-4)-arr[n-4];
 	}
-	
-	//print the array
-//	for(int i=0;i<n+1;i++){
-//		printf("%d ",arr[i]);
-//	}
 	printf("\n");
 	return arr[n+1];
 	
