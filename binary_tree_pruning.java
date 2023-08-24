@@ -14,8 +14,10 @@ class Solution {
         
         return root.val == 1 || leftTree || rightTree;
     }
+
+    
     public TreeNode pruneTree(TreeNode root) {
         boolean ans = subtreeHasOne(root);
-        return ans == true ? root : null;
+        return ans != true ? null : root;
     }
 }
