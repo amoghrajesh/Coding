@@ -2,7 +2,6 @@ A=list(map(int,input().split()))
 target=int(input())
 n=len(A)
 
-
 count=[0]*101
 for i in A:
     count[i]+=1
