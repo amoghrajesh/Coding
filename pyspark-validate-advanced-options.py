@@ -15,9 +15,9 @@ if __name__ == "__main__":
     print("the map is ", m)
 
     n = len(sys.argv)
-    if n == 0:
+    if n == 1:
         print("missing args")
-    elif n == 1:
+    elif n == 2:
         print("entered in elif")
         x = int(sys.argv[1])
         print("doing stat for files: ", m[x])
