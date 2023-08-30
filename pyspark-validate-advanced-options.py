@@ -16,7 +16,7 @@ if __name__ == "__main__":
     if n == 0:
         print("missing args")
     elif n == 1:
-        x = sys.argv[1]
+        x = int(sys.argv[1])
         print("doing stat for files: ", m[x])
 
         for f in m[x]:
