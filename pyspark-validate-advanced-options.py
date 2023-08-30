@@ -23,7 +23,7 @@ if __name__ == "__main__":
         print("doing stat for files: ", m[x])
 
         for f in m[x]:
-            p = "file:///app/mount/" + f
+            p = "/app/mount/" + f
             if os.path.exists(p):
                 print("File exists: ", p)
             else:
