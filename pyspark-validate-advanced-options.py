@@ -13,7 +13,8 @@ if __name__ == "__main__":
     m = {0: [], 1: 
          ["Folder-1/Folder-2/input.txt"], 
          2: ["Folder-1/Folder-2/input.txt", "Folder-1/Folder-2/spark-examples_2.11-2.4.4.jar"], 
-         3: ["Folder-1/Folder-2/input.txt", "Folder-1/Folder-2/spark-examples_2.11-2.4.4.jar", "Folder-1/Folder-2/100_doors.py"]}
+         3: ["Folder-1/Folder-2/input.txt", "Folder-1/Folder-2/spark-examples_2.11-2.4.4.jar", "Folder-1/Folder-2/100_doors.py"],
+         4: ["static/json.txt", "Folder-1/Folder-2/spark-examples_2.11-2.4.4.jar", "Folder-1/Folder-2/100_doors.py"]}
 
     print("the map is ", m)
 
