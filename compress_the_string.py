@@ -15,4 +15,5 @@ else:
 			ans+=len(str(j-i))
 		i=j
 	print(ans)
+	print(ans)
 		
