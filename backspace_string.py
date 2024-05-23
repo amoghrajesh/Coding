@@ -9,7 +9,7 @@ def backspaceCompare(self, S: str, T: str) -> bool:
 
     for i in S:
         if i=='#':
-            if not len(stack1)==0:
+            if not len(stack1) == 0:
                 stack1.pop()
         else:
             stack1.append(i)
