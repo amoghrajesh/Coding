@@ -25,7 +25,7 @@ example_dag = DAG(
 
 task_1 = BashOperator(
     task_id="parameterized_task",
-    bash_command="echo Good Morning!",
+    bash_command="echo Good Morning All!",
     dag=example_dag,
 )
 
