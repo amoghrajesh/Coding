@@ -42,6 +42,5 @@ public:
             i++;
         }
         return ans;
-        
     }
 };
