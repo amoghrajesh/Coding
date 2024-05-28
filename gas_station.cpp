@@ -15,6 +15,5 @@ public:
         }
         
         return (tank + deficit >= 0) ? start : -1;
-        
     }
 };
