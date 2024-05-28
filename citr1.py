@@ -2,7 +2,6 @@ import heapq
 def maxPerformance(n, speed, reliablity, maxMachines):
     
     people = sorted(zip(speed, reliablity), key=lambda x: -x[1])
-    
     result, sum_speed = 0, 0
     min_heap = []
     
